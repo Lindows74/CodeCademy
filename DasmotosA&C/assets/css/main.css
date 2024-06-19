@@ -5,6 +5,7 @@ h1 {
     color: khaki;
     text-align: center;
     background-image: url("./assets/img/pattern.jpeg");
+    background-color: aqua;
 }
 h2 {
     font-family: Helvetica;
