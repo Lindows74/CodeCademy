@@ -4,7 +4,7 @@ header {
     font-weight: bold;
     color: khaki;
     text-align: center;
-    background-image: url("/assets/img/pattern.jpeg");
+    background-image: url("./assets/img/pattern.jpeg");
 }
 h2 {
     font-family: Helvetica;
