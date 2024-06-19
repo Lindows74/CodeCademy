@@ -6,3 +6,10 @@ header {
     text-align: center;
     background-image: url("/assets/img/pattern.jpeg");
 }
+h2 {
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    
+}
