@@ -3,7 +3,26 @@
     <head>
         <title>Dasmotos Arts & Crafts</title>
         <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
-    </head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script>
+            $(document).ready(function() {
+            $('body').on('keydown', function(event) {
+                if (event.ctrlKey && event.key === 's') {
+                event.preventDefault();
+                saveToGitHub();
+                }
+            });
+
+            function saveToGitHub() {
+                // Add your code here to save the file to GitHub
+                // This can be done using the GitHub API or a Git client library
+                // You will need to authenticate with your GitHub account and provide the necessary repository information
+                // Once authenticated, you can use the appropriate API endpoint or library function to commit and push the changes
+                // Remember to handle any errors that may occur during the process
+            }
+            });
+        </script>
+        </head>
     <body>
         <div id="container">
             <header>
